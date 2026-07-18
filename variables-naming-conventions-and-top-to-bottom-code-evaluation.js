@@ -22,11 +22,13 @@ Things to reflect on:
   - What are the common pitfalls to avoid when naming variables?
   - How do clear variable names benefit team collaboration?
   
-*/
+*/;
+let name = "Alice";
+let numberOfPurchases = 5;
+let price = 20;
+let budget = 250;
+let budgetRemaining = budget - price;
+let budgetBalanceSummary = name + " bought " + numberOfPurchases + " items for $" + price + ". " + name + "'s remaining budget is $" + budgetRemaining + ".";
 
-let a = "Alice";
-let b = 5;
-let c = 20;
-let d = a + " bought " + b + " items for $" + c + ".";
+console.log(budgetBalanceSummary);
 
-console.log(d);
